@@ -1,6 +1,4 @@
 import React from 'react';
-import UserGreetText from './UserGreetText';
-import DemoPage from './DemoPage';
 import RobotsTxt from './robotstxt';
 import Defenses from './defenses';
 import Paywall from './paywall';

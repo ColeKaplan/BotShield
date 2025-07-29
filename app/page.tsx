@@ -1,9 +1,6 @@
 'use client'
 import React, { useEffect, useState } from 'react';
-import ThreadList from '@/components/ThreadList';
 import Header from '@/components/Header';
-import { IThread } from '@/types/thread';
-import { getThreads } from '@/lib/supabase-thread-calls';
 import { Button } from '@mui/material';
 import { useRouter } from 'next/navigation';
 
