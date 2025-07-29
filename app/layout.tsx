@@ -22,7 +22,7 @@ export default function RootLayout({
         {/* <link rel="icon" type="image/png" sizes="32x32" href="/favicon/PenFavicon-32x32.png"/> */}
         {/* <link rel="icon" type="image/png" sizes="16x16" href="/favicon/PenFavicon-16x16.png"/> */}
       </head>
-      <body className={`${inter.className} bg-gradient-to-b from-[#2d5c64] to-[#152b38] overscroll-none  text-[#000000]`}>
+      <body className={`${inter.className} bg-gradient-to-b from-[#08363b] to-[#152b38] overscroll-none  text-[#000000]`}>
         {children}
       </body>
     </html>

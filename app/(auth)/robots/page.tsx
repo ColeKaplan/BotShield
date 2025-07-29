@@ -9,15 +9,15 @@ const SignUpPage = () => {
     return (
         <div className="flex flex-col h-[100dvh]" >
             <Header />
-            <div className="flex flex-col items-center justify-between mt-8">
-                <div className="flex flex-col">
-                    <p className="text-xl text-white mb-2 text-center">
+            <div className="flex flex-col items-center justify-between mt-4">
+                <div className="flex flex-col px-4 py-3 bg-neutral-100 rounded-2xl font-sans shadow-sm">
+                    <p className="text-xl text-gray-800 mb-2 text-center">
                         Robots.txt is effective against 87% of tested crawlers
                     </p>
-                    <p className="text-2xl text-white mb-2 text-center">
+                    <p className="text-2xl text-gray-800 font-semibold mb-2 text-center">
                         HOWEVER
                     </p>
-                    <p className="text-xl text-white mb-2 text-center">
+                    <p className="text-xl text-gray-800 mb-2 text-center">
                         Smaller creators disproportionately lack knowledge or use of Robots.txt
                     </p>
                 </div>
@@ -26,15 +26,15 @@ const SignUpPage = () => {
                         <p className="text-3xl font-bold">46%</p>
                         <p className="mt-2 text-sm">Newspapers</p>
                     </div>
-                    <div className="bg-gradient-to-b from-[#d8a8ce] to-[#344047] text-white p-4 rounded-2xl shadow-md text-center">
+                    <div className="bg-gradient-to-b from-[#8fc7d1] to-[#344047] text-white p-4 rounded-2xl shadow-md text-center">
                         <p className="text-3xl font-bold">45.9%</p>
                         <p className="mt-2 text-sm">Universities</p>
                     </div>
-                    <div className="bg-gradient-to-b from-[#add9c3] to-[#344047] text-white p-4 rounded-2xl shadow-md text-center">
+                    <div className="bg-gradient-to-b from-[#8fc7d1] to-[#344047] text-white p-4 rounded-2xl shadow-md text-center">
                         <p className="text-3xl font-bold">44%</p>
                         <p className="mt-2 text-sm">Government</p>
                     </div>
-                    <div className="bg-gradient-to-b from-[#8e2a2a] to-[#344047] text-white p-4 rounded-2xl shadow-md text-center">
+                    <div className="bg-gradient-to-b from-[#8fc7d1] to-[#344047] text-white p-4 rounded-2xl shadow-md text-center">
                         <p className="text-3xl font-bold">10%</p>
                         <p className="mt-2 text-sm">Total Website Implementation</p>
                     </div>

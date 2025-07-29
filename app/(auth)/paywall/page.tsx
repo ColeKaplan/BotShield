@@ -8,7 +8,7 @@ const steps = [
     {
         title: "GATEKEEP",
         desc: "Introduce a small payment gate (via Stripe or API) for bots wanting content",
-        color: "bg-[#1a7b96]",
+        color: "bg-[#0a3b32]",
         textColor: "text-white",
         numberColor: "text-white",
     },
@@ -22,7 +22,7 @@ const steps = [
     {
         title: "VERIFY",
         desc: "Bot identity is logged and abuse can be blocked",
-        color: "bg-[#1a7b96]",
+        color: "bg-[#0a3b32]",
         textColor: "text-white",
         numberColor: "text-white",
     },
@@ -61,7 +61,7 @@ const PaywallPage = () => {
                     ))}
                 </div>
 
-                {/* <div className="bg-[#1a7b96] w-full">
+                {/* <div className="bg-[#0a3b32] w-full">
                     <p>Testing</p>
                 </div> */}
                 <div className="w-[1150px] bg-white rounded-3xl items-center flex justify-center mt-8">
