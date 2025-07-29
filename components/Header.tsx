@@ -4,6 +4,7 @@ import DemoPage from './DemoPage';
 import RobotsTxt from './robotstxt';
 import Defenses from './defenses';
 import Paywall from './paywall';
+import References from './references';
 
 const Header: React.FC = () => {
   return (
@@ -23,6 +24,8 @@ const Header: React.FC = () => {
           {/* <DemoPage /> */}
           {/* {"  |  "} */}
           <Paywall />
+          {"  |  "}
+          <References />
         </div>
       </div>
       <hr className="my-2 border-accent1 mt-6" />

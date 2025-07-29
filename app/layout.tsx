@@ -6,8 +6,8 @@ import Header from "@/components/Header"
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Flymen",
-  description: "Discussions between users play out in a variety of topics",
+  title: "BotShield",
+  description: "Project for LMC 3403",
 };
 
 export default function RootLayout({
@@ -19,8 +19,8 @@ export default function RootLayout({
   return (
     <html lang="en" className="m-0 p-0">
       <head>
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon/PenFavicon-32x32.png"/>
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon/PenFavicon-16x16.png"/>
+        {/* <link rel="icon" type="image/png" sizes="32x32" href="/favicon/PenFavicon-32x32.png"/> */}
+        {/* <link rel="icon" type="image/png" sizes="16x16" href="/favicon/PenFavicon-16x16.png"/> */}
       </head>
       <body className={`${inter.className} bg-gradient-to-b from-[#2d5c64] to-[#152b38] overscroll-none  text-[#000000]`}>
         {children}
